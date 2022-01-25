@@ -13,6 +13,14 @@ local v = game.Workspace
 
 
 
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "ABRLHUB";
+	Text = "KICK when UPDATE = enabled";
+})
+
+loadstring(game:HttpGet("https://pastebin.com/raw/v86VDXtQ"))()
+
+
 if game.PlaceId == 4924922222 then
 
 	local ABRLHubOptimizationScriptFORGAME = Instance.new("ScreenGui")
@@ -212,9 +220,9 @@ elseif game.PlaceId == 2916899287 then
 		Url = 'https://raw.githubusercontent.com/AlexR32/Roblox/main/BRM5/SilentAim.lua'
 	})
 	loadstring(req.Body)()
-
+--[[
 elseif game.PlaceId == 2916899287 then
-
+	loadstring(game:HttpGet("https://pastebin.com/raw/v86VDXtQ"))()
 	local ABRLHubOptimizationScriptFORGAME = Instance.new("ScreenGui")
 	local Main = Instance.new("Frame")
 	local pannel = Instance.new("Frame")
@@ -311,7 +319,7 @@ elseif game.PlaceId == 2916899287 then
 		Url = 'https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua'
 	})
 	loadstring(req.Body)()
-
+--]]
 
 elseif game.PlaceId == 4616652839 then
 
@@ -514,6 +522,7 @@ elseif game.PlaceId == 5041144419 then
 	loadstring(req.Body)()
 
 elseif game.PlaceId == 654732683 then
+
 	local ABRLHubOptimizationScriptFORGAME = Instance.new("ScreenGui")
 	local Main = Instance.new("Frame")
 	local pannel = Instance.new("Frame")
@@ -618,7 +627,7 @@ elseif game.PlaceId == 654732683 then
 
 	loadstring(game:HttpGet('https://pastebin.com/raw/T7ERd3e8'))()
 elseif game.PlaceId == 286090429 then
-
+	
 
 	local ABRLHubOptimizationScriptFORGAME = Instance.new("ScreenGui")
 	local Main = Instance.new("Frame")
@@ -714,7 +723,7 @@ elseif game.PlaceId == 286090429 then
 	Main.Visible = false
 	if syn then request = syn.request end
 	local req = request({
-		Url = 'https://pastebin.com/raw/56raWycj'
+		Url = 'https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt'
 	})
 	loadstring(req.Body)()
 
@@ -725,12 +734,3 @@ elseif game.PlaceId then
 	})
 end
 
-
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "ABRLHUB";
-	Text = "KICK when UPDATE = enabled";
-})
-
-while wait() do
-	loadstring(game:HttpGet("https://pastebin.com/raw/v86VDXtQ"))()
-end
