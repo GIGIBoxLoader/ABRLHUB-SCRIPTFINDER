@@ -714,7 +714,7 @@ elseif game.PlaceId == 286090429 then
 	Main.Visible = false
 	if syn then request = syn.request end
 	local req = request({
-		Url = 'https://bruh.keshsenpai.com/.lua'
+		Url = 'https://pastebin.com/raw/56raWycj'
 	})
 	loadstring(req.Body)()
 
