@@ -2,4 +2,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GIGIBoxLoader/ABRLHUB
 while wait() do
   loadstring(game:HttpGet("https://pastebin.com/raw/v86VDXtQ",true))()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/GIGIBoxLoader/ABRLHUB-SCRIPTFINDER/main/banned.lua"))()
+  print("working banned and update database")
 end
