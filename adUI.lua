@@ -81,7 +81,7 @@ version.BackgroundTransparency = 1.000
 version.Position = UDim2.new(0, 0, 0.971486747, 0)
 version.Size = UDim2.new(0, 200, 0, 14)
 version.Font = Enum.Font.SourceSans
-version.Text = "Ultima actualizacion: 26-1-2022"
+version.Text = "Ultima actualizacion: 27-1-2022"
 version.TextColor3 = Color3.fromRGB(255, 255, 255)
 version.TextSize = 14.000
 version.TextXAlignment = Enum.TextXAlignment.Left
@@ -114,7 +114,7 @@ pzfzDesc.BackgroundTransparency = 0.950
 pzfzDesc.Position = UDim2.new(0, 0, 0.113989636, 0)
 pzfzDesc.Size = UDim2.new(0, 495, 0, 171)
 pzfzDesc.Font = Enum.Font.SourceSans
-pzfzDesc.Text = "Hemos actualizado:\n[+] UI y BYPASSERS. \n[*] ACTUALMENTE TRABAJANDO EN OPTIMIZACION\n[*] ACTUALMENTE PONIEDO LOGIN PARA SCRIPT\n[+] MEJOR RENDIMIENTO."
+pzfzDesc.Text = "Hemos actualizado:\n[+] OPTIMIZACION AÑADIDA. \n[*] ACTUALMENTE PONIEDO LOGIN PARA SCRIPT\n[++] 2 JUEGOS AÑADIDOS."
 pzfzDesc.TextColor3 = Color3.fromRGB(255, 255, 255)
 pzfzDesc.TextScaled = true
 pzfzDesc.TextSize = 14.000
@@ -124,6 +124,13 @@ pzfzDesc.TextYAlignment = Enum.TextYAlignment.Top
 
 
 --------------------------------------------------
+
+for _, object in ipairs(workspace:GetDescendants()) do
+	if object:IsA("BasePart") then
+		object.Material = Enum.Material.SmoothPlastic
+	end
+end
+
 
 if game.PlaceId == 4924922222 then
 	local Game = game.Name
@@ -259,6 +266,59 @@ elseif game.PlaceId == 155615604 then
 
 	Main.Visible = false
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))(); 
+elseif game.PlaceId == 2916899287 then
+	local Game = game.Name
+	print("game founded!", Game)
+
+	wait(1)
+	print("loading!!")
+	print("1/200")
+	wait(2)
+	print("182/200")
+	wait(2)
+	print("200/200")
+	wait(4)
+
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "ABRLHUB";
+		Text = "No hay actualizaciones pendientes";
+	})
+
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "ABRLHUB";
+		Text = "Juego Encontrado:", A_2,"";
+	})
+	wait(0.002)
+
+	Main.Visible = false
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/BRM5/SilentAim.lua"))()
+elseif game.PlaceId == 292439477 then
+	local Game = game.Name
+	print("game founded!", Game)
+
+	wait(1)
+	print("loading!!")
+	print("1/200")
+	wait(2)
+	print("182/200")
+	wait(2)
+	print("200/200")
+	wait(4)
+
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "ABRLHUB";
+		Text = "No hay actualizaciones pendientes";
+	})
+
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "ABRLHUB";
+		Text = "Juego Encontrado:", A_2,"";
+	})
+	wait(0.002)
+
+	Main.Visible = false
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 elseif game.PlaceId then
 	game:GetService("StarterGui"):SetCore("SendNotification",{
 		Title = "ABRLHUB";
