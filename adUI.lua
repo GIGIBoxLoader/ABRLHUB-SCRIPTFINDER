@@ -27,6 +27,8 @@ local UICorner_2 = Instance.new("UICorner")
 local tituloparaChangeLOg = Instance.new("TextLabel")
 local pzfzDesc = Instance.new("TextLabel")
 
+--Properties:
+
 ABRLHubOptimizationScriptFORGAME.Name = "ABRLHub-OptimizationScript-FORGAME"
 ABRLHubOptimizationScriptFORGAME.Parent = game.CoreGui
 ABRLHubOptimizationScriptFORGAME.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -51,7 +53,7 @@ titulo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 titulo.BackgroundTransparency = 1.000
 titulo.Size = UDim2.new(0, 576, 0, 18)
 titulo.Font = Enum.Font.SourceSans
-titulo.Text = "ABRLHUB Script finder for game."
+titulo.Text = "ArXOS Script Finder"
 titulo.TextColor3 = Color3.fromRGB(255, 255, 255)
 titulo.TextScaled = true
 titulo.TextSize = 14.000
@@ -70,7 +72,7 @@ descripcion.TextScaled = true
 descripcion.TextSize = 14.000
 descripcion.TextWrapped = true
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(242, 74, 74)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(65, 26, 46))}
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(242, 74, 74)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(194, 14, 125))}
 UIGradient.Parent = Main
 
 UICorner.CornerRadius = UDim.new(0, 4)
@@ -80,10 +82,10 @@ version.Name = "version"
 version.Parent = Main
 version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 version.BackgroundTransparency = 1.000
-version.Position = UDim2.new(0, 0, 0.971486747, 0)
+version.Position = UDim2.new(0.0173611119, 0, 0.960527837, 0)
 version.Size = UDim2.new(0, 200, 0, 14)
 version.Font = Enum.Font.SourceSans
-version.Text = "Ultima actualizacion: 27-1-2022 / Version"
+version.Text = "Ultima actualizacion: 26-1-2022"
 version.TextColor3 = Color3.fromRGB(255, 255, 255)
 version.TextSize = 14.000
 version.TextXAlignment = Enum.TextXAlignment.Left
@@ -103,7 +105,7 @@ tituloparaChangeLOg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 tituloparaChangeLOg.BackgroundTransparency = 0.950
 tituloparaChangeLOg.Size = UDim2.new(0, 497, 0, 22)
 tituloparaChangeLOg.Font = Enum.Font.SourceSans
-tituloparaChangeLOg.Text = "Cambios recibidos en la ultima actualizacion. V1.21.1K"
+tituloparaChangeLOg.Text = "Cambios recibidos en la ultima actualizacion."
 tituloparaChangeLOg.TextColor3 = Color3.fromRGB(255, 255, 255)
 tituloparaChangeLOg.TextScaled = true
 tituloparaChangeLOg.TextSize = 14.000
@@ -116,7 +118,7 @@ pzfzDesc.BackgroundTransparency = 0.950
 pzfzDesc.Position = UDim2.new(0, 0, 0.113989636, 0)
 pzfzDesc.Size = UDim2.new(0, 495, 0, 171)
 pzfzDesc.Font = Enum.Font.SourceSans
-pzfzDesc.Text = "Hemos actualizado:\n[FIX] FIXEADO EL ERROR DE getstring \n[*] TRABJANDO CON NUESTRO OWN HUB! \n[IN] INTENTANDO AÑADIR AUTOFIX \n[+] NUEVO BYPASS \n[+] NUEVA VERSION 1.21.1K \n[FIX] FIXEADO LA OPTIMIZACION \n[+] DOS JUEGOS AÑADIDOS"
+pzfzDesc.Text = "Hemos actualizado:\\n[+] UI y BYPASSERS. \\n[*] ACTUALMENTE TRABAJANDO EN OPTIMIZACION\\n[*] ACTUALMENTE PONIEDO LOGIN PARA SCRIPT\\n[+] MEJOR RENDIMIENTO."
 pzfzDesc.TextColor3 = Color3.fromRGB(255, 255, 255)
 pzfzDesc.TextScaled = true
 pzfzDesc.TextSize = 14.000
@@ -124,9 +126,8 @@ pzfzDesc.TextWrapped = true
 pzfzDesc.TextXAlignment = Enum.TextXAlignment.Left
 pzfzDesc.TextYAlignment = Enum.TextYAlignment.Top
 
-
 --------------------------------------------------
-
+pzfzDesc.Text = "Hemos actualizado:\n[FIX] FIXEADO EL ERROR DE getstring \n[*] TRABJANDO CON NUESTRO OWN HUB! \n[IN] INTENTANDO AÑADIR AUTOFIX \n[+] NUEVO BYPASS \n[+] NUEVA VERSION 1.21.1K \n[FIX] FIXEADO LA OPTIMIZACION \n[+] DOS JUEGOS AÑADIDOS"
 version.Text = "Ultima actualizacion: 28-1-2022 / Version 1.21.1K"
 
 
