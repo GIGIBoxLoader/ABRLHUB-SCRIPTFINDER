@@ -12,5 +12,5 @@ local A_1 = game.JobId
 --game.Players.LocalPlayer:Kick("getstring not able do find. \n\nError code: 283")
 --game.Players.LocalPlayer:Kick("CODE NOT IDENTIFIED. Use a vpn. \n\nError code: 300")
 --game.Players.LocalPlayer:Kick(""A_1" \n\nError code: 310")
---game.Players.LocalPlayer:Kick("A_3,A_4 VAR cannot be founded in the script. Bypassers are locked. \n\nError code: 276")
+game.Players.LocalPlayer:Kick("A_3,A_4 VAR cannot be founded in the script. Bypassers are locked. \n\nError code: 276")
 --game.Players.LocalPlayer:Kick("A_5,A_6 VAR cannot be founded in the script. Bypassers are locked. \n\nError code: 276")
