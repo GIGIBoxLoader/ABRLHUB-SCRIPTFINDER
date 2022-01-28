@@ -9,7 +9,7 @@ local A_ = game.Chat.Changed
 print(A_1,A_2,A_3,A_4,A_5)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GIGIBoxLoader/ABRLHUB-SCRIPTFINDER/main/updating.lua",true))()
-wait(837723113)
+-- wait(837723113)
 
 local plr = game.Players.LocalPlayer
 local v = game.Workspace
@@ -103,7 +103,7 @@ tituloparaChangeLOg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 tituloparaChangeLOg.BackgroundTransparency = 0.950
 tituloparaChangeLOg.Size = UDim2.new(0, 497, 0, 22)
 tituloparaChangeLOg.Font = Enum.Font.SourceSans
-tituloparaChangeLOg.Text = "Cambios recibidos en la ultima actualizacion."
+tituloparaChangeLOg.Text = "Cambios recibidos en la ultima actualizacion. V1.21.1K"
 tituloparaChangeLOg.TextColor3 = Color3.fromRGB(255, 255, 255)
 tituloparaChangeLOg.TextScaled = true
 tituloparaChangeLOg.TextSize = 14.000
@@ -116,7 +116,7 @@ pzfzDesc.BackgroundTransparency = 0.950
 pzfzDesc.Position = UDim2.new(0, 0, 0.113989636, 0)
 pzfzDesc.Size = UDim2.new(0, 495, 0, 171)
 pzfzDesc.Font = Enum.Font.SourceSans
-pzfzDesc.Text = "Hemos actualizado:\n[FIX] FIXEADO EL ERROR DE OMV \n[*] TRABJANDO CON EL LOGIN"
+pzfzDesc.Text = "Hemos actualizado:\n[FIX] FIXEADO EL ERROR DE getstring \n[*] TRABJANDO CON NUESTRO OWN HUB! \n[IN] INTENTANDO AÑADIR AUTOFIX \n[+] NUEVO BYPASS \n[+] NUEVA VERSION 1.21.1K \n[FIX] FIXEADO LA OPTIMIZACION \n[+] DOS JUEGOS AÑADIDOS"
 pzfzDesc.TextColor3 = Color3.fromRGB(255, 255, 255)
 pzfzDesc.TextScaled = true
 pzfzDesc.TextSize = 14.000
@@ -127,15 +127,17 @@ pzfzDesc.TextYAlignment = Enum.TextYAlignment.Top
 
 --------------------------------------------------
 
-version.Text = "Ultima actualizacion: 27-1-2022 / Version 1.20.1K"
+version.Text = "Ultima actualizacion: 28-1-2022 / Version 1.21.1K"
 
 
-for _, object in ipairs(workspace:GetDescendants()) do
-	if object:IsA("BasePart") then
-		object.Material = Enum.Material.SmoothPlastic
+local ws = game:GetService("Workspace")
+
+
+for i,v in pairs(ws:GetDescendants()) do
+	if v:IsA("Texture") then
+		v:Destroy()
 	end
 end
-
 
 if game.PlaceId == 4924922222 then
 	local Game = game.Name
@@ -168,6 +170,8 @@ if game.PlaceId == 4924922222 then
 	})
 	loadstring(req.Body)()
 elseif game.PlaceId == 286090429 then
+
+-- arsenal
 	local Game = game.Name
 	print("game founded!", Game)
 
@@ -213,7 +217,7 @@ elseif game.PlaceId == 4616652839 then
 
 	game:GetService("StarterGui"):SetCore("SendNotification",{
 		Title = "ABRLHUB";
-		Text = "Sentimos mucho las molestias. Este script a sido patcheado O no funciona.";
+		Text = "Estamos actualmente trabajando para este script";
 	})
 	wait(0.002)
 
@@ -324,6 +328,59 @@ elseif game.PlaceId == 292439477 then
 	Main.Visible = false
 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+
+elseif game.PlaceId == 2788229376 then
+	local Game = game.Name
+	print("game founded!", Game)
+
+	wait(1)
+	print("loading!!")
+	print("1/200")
+	wait(2)
+	print("182/200")
+	wait(2)
+	print("200/200")
+	wait(4)
+		
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "ABRLHUB";
+			Text = "No hay actualizaciones pendientes";
+		})
+
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "ABRLHUB";
+			Text = "Juego Encontrado:", A_2,"";
+		})
+		wait(0.002)
+
+	Main.Visible = false
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
+elseif game.PlaceId == 1466995005 then
+	local Game = game.Name
+	print("game founded!", Game)
+
+	wait(1)
+	print("loading!!")
+	print("1/200")
+	wait(2)
+	print("182/200")
+	wait(2)
+	print("200/200")
+		wait(4)
+
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "ABRLHUB";
+			Text = "No hay actualizaciones pendientes";
+		})
+
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "ABRLHUB";
+			Text = "Juego Encontrado:", A_2,"";
+		})
+	wait(0.002)
+
+	Main.Visible = false
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/Ragdoll%20Mayhem/MultiHack.lua"))()
 elseif game.PlaceId then
 	game:GetService("StarterGui"):SetCore("SendNotification",{
 		Title = "ABRLHUB";
