@@ -8,8 +8,6 @@ local A_ = game.Chat.Changed
 
 print(A_1,A_2,A_3,A_4,A_5)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GIGIBoxLoader/ABRLHUB-SCRIPTFINDER/main/updating.lua",true))()
-wait(9839128381039128312093)
 
 local plr = game.Players.LocalPlayer
 local v = game.Workspace
@@ -83,7 +81,7 @@ version.BackgroundTransparency = 1.000
 version.Position = UDim2.new(0, 0, 0.971486747, 0)
 version.Size = UDim2.new(0, 200, 0, 14)
 version.Font = Enum.Font.SourceSans
-version.Text = "Ultima actualizacion: 27-1-2022"
+version.Text = "Ultima actualizacion: 27-1-2022 / Version"
 version.TextColor3 = Color3.fromRGB(255, 255, 255)
 version.TextSize = 14.000
 version.TextXAlignment = Enum.TextXAlignment.Left
@@ -116,7 +114,7 @@ pzfzDesc.BackgroundTransparency = 0.950
 pzfzDesc.Position = UDim2.new(0, 0, 0.113989636, 0)
 pzfzDesc.Size = UDim2.new(0, 495, 0, 171)
 pzfzDesc.Font = Enum.Font.SourceSans
-pzfzDesc.Text = "Hemos actualizado:\n[+] OPTIMIZACION AÑADIDA. \n[*] ACTUALMENTE PONIEDO LOGIN PARA SCRIPT\n[++] 2 JUEGOS AÑADIDOS."
+pzfzDesc.Text = "Hemos actualizado:\n[FIX] FIXEADO EL ERROR DE OMV \n[*] TRABJANDO CON EL LOGIN"
 pzfzDesc.TextColor3 = Color3.fromRGB(255, 255, 255)
 pzfzDesc.TextScaled = true
 pzfzDesc.TextSize = 14.000
@@ -126,6 +124,9 @@ pzfzDesc.TextYAlignment = Enum.TextYAlignment.Top
 
 
 --------------------------------------------------
+
+version.Text = "Ultima actualizacion: 27-1-2022 / Version 1.20.1K"
+
 
 for _, object in ipairs(workspace:GetDescendants()) do
 	if object:IsA("BasePart") then
