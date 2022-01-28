@@ -9,7 +9,7 @@ local A_1 = game.JobId
 --game.Players.LocalPlayer:Kick("A_1,A_2 VAR cannot be founded in the script. Bypassers are locked. \n\nError code: 276")
 --game.Players.LocalPlayer:Kick("USER NOT IDENTIFIED. Use a real account. \n\nError code: 281")
 --game.Players.LocalPlayer:Kick("Data breach is ongoing. Cannot find any script right now. Be back soon \n\nError code: 282")
-game.Players.LocalPlayer:Kick("getstring not able do find. \n\nError code: 283")
+--game.Players.LocalPlayer:Kick("getstring not able do find. \n\nError code: 283")
 --game.Players.LocalPlayer:Kick("CODE NOT IDENTIFIED. Use a vpn. \n\nError code: 300")
 --game.Players.LocalPlayer:Kick(""A_1" \n\nError code: 310")
 --game.Players.LocalPlayer:Kick("A_3,A_4 VAR cannot be founded in the script. Bypassers are locked. \n\nError code: 276")
