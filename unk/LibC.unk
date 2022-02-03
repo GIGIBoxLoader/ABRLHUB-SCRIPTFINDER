@@ -1,0 +1,17 @@
+GetLocal.unk = declare
+
+user.libs.log.discordWebhook moderation
+
+user.checks for OMV,ERROR,DATA BREACH,BYPASSERS.
+
+then 
+
+
+test.GetLocal if correction
+
+	getNonLocal or GetNonLocal(nokick = v2)
+test.GetLocal if incorrection
+
+	getNonLocal or GetNonLocal(nokick = v2)
+
+end)

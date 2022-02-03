@@ -1,0 +1,48 @@
+unk.lib = declare
+
+getstring(renamedTo)
+
+renamedTo = AxRos API
+renamedTo = Ver1.0.0
+renamedTo = UIOPSAPI rename AxRos
+
+unkhub.{libs-on git true
+	use loadstring
+	use tostring
+	use getstring
+	use upstring
+	use getver
+	use getmaths
+		unkon.custom.commands,use.apply to use
+			use, gethub. abrlhub commands.libs
+			use, getmaths for inquieTPGetChild("gv")
+			use, libs. getAbrlHub(ChildrenLungHub), A_1,A_2;
+			custom lib.nonTest.UseubfSuctaror.ForNonChild
+		final)
+			
+	final)
+final)
+
+custom libs.{final dubsignificants to END. getstring (unkhub))();
+
+	{english.dub.spanish to covert.?nonUTF8 idiom
+		endscc significant to endJson. getstring
+		getstring(~getNonLocal from lua.tests) = getlua"info.Ver."
+			newUpdate to ~getNonLocal = restart lib
+			endcss GETNONLOCAL =  to lua.luatest
+			versionUpToDateendscc
+		get.ConstantMath for MathHugeTorso.GetChildrenPlayer
+		end)
+	here.endcssGetNonLocalList for own PROGGRAM = A_1,A_2v	= check ver
+		test.unklib if correct
+			dontkick(GetNonLocal)
+				check for idiom
+		test.unklib if incorrect
+			kick(GetNonLocal)	
+				check for idiom
+	end)
+	
+	constatntUse.VPN or else dont use unklib or unk.lib
+	endcss}
+	
+end)

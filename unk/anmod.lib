@@ -1,0 +1,6 @@
+abrlhub.Unk.RequiresLibraryFrom CSRS database
+	require(unk.GetLocal and unk.LibC Checkuer)
+	github.xcoh.lib.EMAL = send.toDiscordWebHook then closeSession
+	github.fcoh.lib.EMAL = send.toDiscordWebHook then closeSession
+	check webs = webInputChecker(closeSessions if require(unk.Getlocal and unk.LibC Checkuer))
+end)
