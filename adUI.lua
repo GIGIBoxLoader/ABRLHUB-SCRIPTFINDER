@@ -139,6 +139,13 @@ for i,v in pairs(ws:GetDescendants()) do
 		v:Destroy()
 	end
 end
+for _, object in ipairs(workspace:GetDescendants()) do
+	if object:IsA("BasePart") then
+		object.Material = Enum.Material.SmoothPlastic
+	end
+end
+
+
 
 if game.PlaceId == 4924922222 then
 	local Game = game.Name
