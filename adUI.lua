@@ -9,7 +9,7 @@ local A_ = game.Chat.Changed
 print(A_1,A_2,A_3,A_4,A_5)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GIGIBoxLoader/ABRLHUB-SCRIPTFINDER/main/updating.lua",true))()
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GIGIBoxLoader/AXROS_ACRU/main/axros-arcu.lua"))();
 
 local plr = game.Players.LocalPlayer
 local v = game.Workspace
