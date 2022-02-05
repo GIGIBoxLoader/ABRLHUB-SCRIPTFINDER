@@ -128,7 +128,7 @@ pzfzDesc.TextYAlignment = Enum.TextYAlignment.Top
 
 --------------------------------------------------
 pzfzDesc.Text = "Hemos actualizado:\n[FIX] FIXEADO EL ERROR DE getstring \n[*] TRABJANDO CON NUESTRO OWN HUB! \n[IN] INTENTANDO AÑADIR AUTOFIX \n[+] NUEVO BYPASS \n[+] NUEVA VERSION 1.21.1K \n[FIX] FIXEADO LA OPTIMIZACION \n[+] DOS JUEGOS AÑADIDOS"
-version.Text = "Ultima actualizacion: 28-1-2022 / Version 1.21.1K"
+version.Text = "Ultima actualizacion: 5-2-2022 / Version 1.21.2K"
 
 
 local ws = game:GetService("Workspace")
@@ -179,7 +179,7 @@ if game.PlaceId == 4924922222 then
 	loadstring(req.Body)()
 elseif game.PlaceId == 286090429 then
 
--- arsenal
+	-- arsenal
 	local Game = game.Name
 	print("game founded!", Game)
 
@@ -230,7 +230,7 @@ elseif game.PlaceId == 4616652839 then
 	wait(0.002)
 
 	Main.Visible = false
-	
+
 elseif game.PlaceId == 5041144419 then
 	local Game = game.Name
 	print("game founded!", Game)
@@ -349,17 +349,17 @@ elseif game.PlaceId == 2788229376 then
 	wait(2)
 	print("200/200")
 	wait(4)
-		
-		game:GetService("StarterGui"):SetCore("SendNotification",{
-			Title = "ABRLHUB";
-			Text = "No hay actualizaciones pendientes";
-		})
 
-		game:GetService("StarterGui"):SetCore("SendNotification",{
-			Title = "ABRLHUB";
-			Text = "Juego Encontrado:", A_2,"";
-		})
-		wait(0.002)
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "ABRLHUB";
+		Text = "No hay actualizaciones pendientes";
+	})
+
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "ABRLHUB";
+		Text = "Juego Encontrado:", A_2,"";
+	})
+	wait(0.002)
 
 	Main.Visible = false
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
@@ -374,17 +374,17 @@ elseif game.PlaceId == 1466995005 then
 	print("182/200")
 	wait(2)
 	print("200/200")
-		wait(4)
+	wait(4)
 
-		game:GetService("StarterGui"):SetCore("SendNotification",{
-			Title = "ABRLHUB";
-			Text = "No hay actualizaciones pendientes";
-		})
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "ABRLHUB";
+		Text = "No hay actualizaciones pendientes";
+	})
 
-		game:GetService("StarterGui"):SetCore("SendNotification",{
-			Title = "ABRLHUB";
-			Text = "Juego Encontrado:", A_2,"";
-		})
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "ABRLHUB";
+		Text = "Juego Encontrado:", A_2,"";
+	})
 	wait(0.002)
 
 	Main.Visible = false
