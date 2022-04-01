@@ -4,3 +4,11 @@ abrlhub.Unk.RequiresLibraryFrom CSRS database
 	github.fcoh.lib.EMAL = send.toDiscordWebHook then closeSession
 	check webs = webInputChecker(closeSessions if require(unk.Getlocal and unk.LibC Checkuer))
 end)
+
+
+uf.Unk.RequiresLibraryFrom CSRS database
+	require(unk.7s and unk.LibC ssdw.lu)
+	github.xcoh.lib.EMAL = send.toDiscordWebHook then closeSession
+	github.fcoh.lib.EMAL = send.toDiscordWebHook then closeSession
+	check UfChecking = webInputChecker(closeSessions if require(unk.Getlocal and unk.LibC Checkuer))
+end)
